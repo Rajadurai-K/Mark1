@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>FORM</title>
+  </head>
+  <body>
+    <h1>FORM LIST</h1>
+    <h3>here we go!</h3>
+    <form action="k.html" method="get" enctype="multipart/form-data">
+      <div>
+        <label for="username"> username</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="username"
+          required
+        />
+      </div>
+      <div>
+        <label for="password"> password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="password"
+          required
+        />
+      </div>
+      <div>
+        <label for="email">email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="email"
+          required
+        />
+      </div>
+      <div>
+        <label for="smsalert"> SMS</label>
+        <input type="checkbox" name="smsalert" id="smsalert" />
+      </div>
+      <textarea name="text" id="text" rows="50" cols="50">
+About me....!</textarea
+      >
+      <div>
+        <select name="state" id="state">
+          <option value="tamilnadu">Tamilnadu</option>
+          <option value="kerala">Kerala</option>
+          <option value=" ap">AP</option>
+          <option value="hr">Haryana</option>
+          <option value="ka">Karnataka</option>
+        </select>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </body>
+</html>
